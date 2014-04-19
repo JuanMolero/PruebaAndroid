@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ 
+<Gallery
+    android:id="@+id/gallery"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:paddingTop="2dp"
+    android:spacing="2dp" />
+ 
+<ImageView
+    android:id="@+id/image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/gallery"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="30dp"
+    android:contentDescription="@string/Seleccionada" />
+
+</RelativeLayout>
